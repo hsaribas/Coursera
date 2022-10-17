@@ -1,0 +1,146 @@
+#main{
+	background-color: white;
+	color: black;
+	font-size: 16px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+#header-nav{
+	background-color: #11eae3;
+	border-radius: 0;
+	border: 0;
+
+}
+
+.navbar-expand-lg .navbar-brand{
+	font-size: 2em;
+	color: grey;
+    
+}
+
+.navbar-expand-lg .navbar-collapse{
+	border: none;
+}
+
+#nav-list a:active{
+	border: none; 
+	border-width: 0px;
+}
+
+#nav-list a{
+	text-align: center;
+}
+
+#nav-list a:hover{
+	background: orange;
+}
+
+#header-nav button.navbar-toggler{
+	border: 2px solid white;
+	background: #ffffff;
+}
+
+.section-background-color{
+	background-color: orange;
+    border: 5px solid tomato;
+} 
+
+
+@media (min-width: 1200px) {
+	h1{
+		margin-left: 25px;
+		display: inline-block;
+		margin-top: 10px;
+	}
+
+	#nav-list{
+		display: none !important;
+	}
+
+	#company{
+		font-size: 2em;
+		color: black;
+	}
+}
+
+@media (min-width: 767px) and (max-width: 1199px) {
+	h1{
+		margin-left: 25px;
+		display: inline-block;
+		margin-top: 10px;
+	}
+
+	#chicken{
+		margin-right: 10px;
+	}
+
+	#beef{
+		margin-right: 10px;
+	}
+
+	#sushi{
+		margin-top: 10px;
+	}
+
+	#company{
+		font-size: 2em;
+		color: black;
+	}
+
+	.col-md-4{
+		margin: 5px;
+	}
+
+	.internal-link{
+		margin-top: 10px;
+		text-transform: uppercase;
+	}
+
+	 a:hover{
+	 	color: white;
+	}
+
+    #nav-list{
+        display: block !important;
+    }
+}
+
+@media (max-width: 767px) {
+	h1{
+		margin-left: 25px;
+		display: inline-block;
+		margin-top: 10px;
+	}
+
+	#company{
+		font-size: 2em;
+		color: black;
+	}
+
+	.navbar-expand-lg.navbar-collapse{
+		border: none;
+		background-color: grey;
+	}
+
+	.col-md-6{
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	#beef{
+		margin: 10px 0px;
+	}
+
+	.internal-link{
+		margin-top: 10px;
+		text-transform: uppercase;
+	}
+
+	 a:hover{
+	 	color: white;
+	}
+
+    #nav-list{
+        display: block !important;
+	}  
+}
